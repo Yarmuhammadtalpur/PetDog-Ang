@@ -1,0 +1,174 @@
+body{
+  font-family: "Montserrat";
+}
+h1, h2, h3, h4, h5, h6{
+  font-family: "Montserrat";
+  font-weight: 700;
+
+}
+/* Heading */
+.big-heading{
+  color: white;
+ font-family: "Montserrat";
+ font-weight: 700;
+ font-size: 4.1rem;
+ line-height: 1.5
+}
+
+/* Title Section */
+.container-fluid{
+  padding: 3% 15% 8%;
+}
+
+#title{
+  background-color: #949cdf;
+}
+
+/* Navigation Bar */
+.navbar-brand{
+  font-family: "Ubuntu";
+  font-size: 2.5rem;
+  font-weight: bold;
+
+}
+
+.navbar{
+  padding: 0 0 4.5rem;
+}
+
+.nav-item{
+  padding: 0 20px;
+}
+
+.nav-link{
+  font-family: "Montserrat";
+  font-weight: 400;
+  font-size: 1.2rem;
+}
+
+/* Download Buttons */
+.download-button {
+margin: 5% 3% 0 5%;
+}
+
+/* Phone Image */
+.dog-phone{
+  width: 60%;
+  transform: rotate(20deg);
+  position: absolute;
+  right: 30%;
+
+}
+
+/* Features Section */
+#features{
+  background-color: white;
+padding: 5% 15%;
+position: relative;
+}
+
+.features-box{
+  text-align: center;
+  padding: 5%;
+}
+
+.features-icons{
+  color: #ef8172;
+  margin-bottom: 1rem;
+}
+
+.features-icons:hover{
+  color: #949cdf;
+}
+.features-heading{
+  font-size: 1.5rem;
+
+}
+.features-details{
+  font-family: "Montserrat";
+  color: #8f8f8f;
+}
+
+/* Testimonials Section */
+
+#testimonials{
+
+  text-align: center;
+  background-color: #ef8172;
+  color: #fff;
+}
+
+.testimonial-heading{
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+.testimonial-img1{
+  width: 15%;
+border-radius: 100%;
+margin: 20px;
+}
+
+.carouel-item-1{
+  padding: 5% 15%;
+}
+
+
+/* Press Section */
+
+#press{
+  background-color: #ef8172;
+  text-align: center;
+  padding-bottom: 3%;
+}
+
+.press-logo-img{
+  width: 15%;
+  margin: 20px 20px 50px;
+}
+
+/* Pricing Section */
+#pricing{
+text-align: center;
+  padding: 5% 15% 5%;
+}
+
+.pricing-column{
+padding: 3% 2%;
+
+}
+
+/* CTA Section */
+#cta{
+  background-color: #949cdf;
+  text-align: center;
+  padding: 6% 10%;
+}
+
+/* Footer Section */
+#footer{
+  background-color: #fff;
+  padding: 5% 15%;
+  text-align: center;
+}
+
+.footer-icons {
+  margin: 20px 10px;
+}
+
+.footer-Copyright{
+  color: #cdd0cb;
+  font-weight: bold;
+}
+
+/* Media Query */
+@media (max-width: 1000px) {
+
+#title{
+  text-align: center;
+}
+.dog-phone{
+  position: static;
+  transform: rotate(0);
+}
+}
